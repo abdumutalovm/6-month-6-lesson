@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.delete {
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(156, 65, 65);
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.delete {
+    background-color: rgb(255, 0, 0);
+}
+
+.edit {
+    width: 40px;
+    height: 35px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: green;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.edit {
+    background-color: rgb(0, 255, 0);
+}
+
+
+
+.segments-box {
+    display: none;
+}
+
+.light-Mode{
+    padding: 8px 15px;
+    border: none;
+    border-radius: 10px;
+}
+
+.dark-Mode{
+    padding: 8px 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+}
